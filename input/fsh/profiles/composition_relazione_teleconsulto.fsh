@@ -9,8 +9,7 @@ Description: "Profilo della Composition utilizzata nel contesto della Relazione 
 * status 1..1
 * status = #final (exactly)
 
-// * type 1..1
-// * type from http://hl7.org/fhir/ValueSet/telemedicina (required)
+* type = http://loinc.org#85208-7 (exactly)
 
 * title 1..1
 * title = "Relazione Collaborativa di Teleconsulto" (exactly)

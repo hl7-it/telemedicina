@@ -6,6 +6,7 @@ Id: CompositionRelazioneTeleassistenza
 Description: "Profilo della Composition utilizzata nel contesto della Relazione Finale di Telemonitoraggio"
 * ^status = #draft
 * title = "Relazione di Teleassistenza" (exactly)
+* type = $loinc#91531-4 (exactly)
 * section ^slicing.discriminator.type = #value
 * section ^slicing.discriminator.path = "code"
 * section ^slicing.rules = #open

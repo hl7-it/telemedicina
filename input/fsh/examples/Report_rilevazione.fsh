@@ -23,7 +23,7 @@ Usage: #example
 Instance: comp12345
 InstanceOf: CompositionReportRilevazioneTM
 Usage: #inline
-* type = $loinc#80563-0 "Report"
+* type = $loinc#64296-7 
 * subject = Reference(patient123)
 * status = #active
 * date = "2024-06-10T08:00:00Z"
