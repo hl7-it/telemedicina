@@ -18,7 +18,7 @@ Instance: composition678
 InstanceOf: CompositionRelazioneFinaleTelemonitoraggio
 Usage: #inline
 * status = #final
-* type = $loinc#18776-5 "Plan of care note"
+* type = $loinc#53576-5 
 * title = "Relazione Finale di Telemonitoraggio"
 * date = "2024-06-10T08:00:00Z"
 * author = Reference(Practitioner/practitioner123)

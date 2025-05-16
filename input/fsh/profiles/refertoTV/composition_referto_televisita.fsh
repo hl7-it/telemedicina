@@ -18,6 +18,7 @@ Description: "Profilo della Composition utilizzata nel contesto della Televisita
 
 * date 1..1
 
+* type = http://loinc.org#75496-0 (exactly)
 // * attester 0..1
 // * attester.mode = #legal (exactly)
 // * attester.time 1..1

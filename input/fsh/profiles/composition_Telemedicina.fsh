@@ -12,7 +12,7 @@ Description: "Profilo base della Composition condiviso in tutti i documenti di T
 * identifier ^short = "Identificatore indipendente dalla versione."
 * status ^short = "Stato di completezza della risorsa Composition. Lo stato della risorsa rappresenta anche lo stato del documento."
 * status ^definition = "Lo stato della Composition si sviluppa generalmente solo attraverso questo elenco: passa da preliminary a final e poi può passare a amended (ovvero modificato)."
-* type from vsAmbitoTelemedicina (required)
+* type from vsTipologiaDocumentale (required)
 * type ^short = "Tipo di Composition."
 * subject 1..
 * subject only Reference(PatientTelemedicina)

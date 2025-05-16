@@ -6,6 +6,7 @@ Parent: CompositionTelemedicina
 Id: CompositionReportRilevazioneTM
 Description: "Profilo della Composition utilizzata nel contesto del Report Rilevazione di Telemonitoraggio"
 * ^status = #draft
+* type = $loinc#64296-7 (exactly)
 * section ^slicing.discriminator.type = #value
 * section ^slicing.discriminator.path = "code"
 * section ^slicing.rules = #open

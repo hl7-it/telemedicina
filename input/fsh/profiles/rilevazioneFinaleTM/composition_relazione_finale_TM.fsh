@@ -6,6 +6,7 @@ Id: CompositionRelazioneFinaleTelemonitoraggio
 Description: "Profilo della Composition utilizzata nel contesto della Relazione Finale di Telemonitoraggio"
 * ^status = #draft
 * title = "Relazione Finale di Telemonitoraggio" (exactly)
+* type = $loinc#53576-5 (exactly)
 * section ^slicing.discriminator.type = #value
 * section ^slicing.discriminator.path = "code"
 * section ^slicing.rules = #open
